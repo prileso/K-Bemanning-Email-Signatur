@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link"
 
 export function Header() {
@@ -10,7 +11,6 @@ export function Header() {
             alt="K-Bemanning"
             width={150}
             height={40}
-            // objectFit="contain"
           />
         </Link>
         <nav>

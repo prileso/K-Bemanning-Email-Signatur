@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link"
 
 export function Footer() {
@@ -31,7 +32,6 @@ export function Footer() {
                 alt="Auktoriserat bemanningsföretag"
                 width={70}
                 height={70}
-                // objectFit="contain"
               />
             </div>
             <div>
@@ -40,7 +40,6 @@ export function Footer() {
                 alt="R-licens"
                 width={60}
                 height={60}
-                // objectFit="contain"
               />
             </div>
           </div>

@@ -238,7 +238,7 @@ export default function SignatureGenerator() {
                     <AlertCircle className="h-4 w-4" />
                     <AlertTitle>Kopiera signaturen</AlertTitle>
                     <AlertDescription>
-                      Klicka på "Kopiera signatur" knappen nedan för att kopiera signaturen med korrekt formatering.
+                      Klicka på &quot;Kopiera signatur&quot; knappen nedan för att kopiera signaturen med korrekt formatering.
                       Klistra sedan in den i din e-postklient.
                     </AlertDescription>
                   </Alert>
