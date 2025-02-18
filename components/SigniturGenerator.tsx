@@ -45,8 +45,8 @@ export default function SignatureGenerator() {
                     ${
                       formData.imageUrl
                         ? `
-                      <div style="width: 80px; height: 80px; border-radius: 50%; overflow: hidden;">
-                        <img src="${formData.imageUrl}" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                      <div style="width: 80px; height: 80px; ">
+                        <img src="${formData.imageUrl}" alt="" style="width: 80px; height: 80px;">
                       </div>
                     `
                         : ""
