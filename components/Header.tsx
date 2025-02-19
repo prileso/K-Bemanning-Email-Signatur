@@ -16,17 +16,17 @@ export function Header() {
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <Link href="/" className="text-gray-600 hover:text-gray-900">
+              <Link href="https://www.k-bemanning.se" className="text-gray-600 hover:text-gray-900">
                 Hem
               </Link>
             </li>
             <li>
-              <Link href="/about" className="text-gray-600 hover:text-gray-900">
+              <Link href="https://www.k-bemanning.se/om-oss/" className="text-gray-600 hover:text-gray-900">
                 Om oss
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-gray-600 hover:text-gray-900">
+              <Link href="https://www.k-bemanning.se/kontakta-oss/" className="text-gray-600 hover:text-gray-900">
                 Kontakt
               </Link>
             </li>

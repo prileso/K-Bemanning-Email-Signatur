@@ -140,14 +140,14 @@ export default function SignatureGenerator() {
     <div className="max-w-3xl mx-auto p-4">
       <Card>
         <CardHeader>
-          <CardTitle>Loves signatur generator</CardTitle>
+          <CardTitle>E-postsignatur</CardTitle>
         </CardHeader>
         <CardContent>
           <Tabs value={activeTab} onValueChange={setActiveTab} ref={tabsRef}>
             <TabsList className="grid w-full grid-cols-2">
-              <TabsTrigger value="form">Form</TabsTrigger>
+              <TabsTrigger value="form">Uppgifter</TabsTrigger>
               <TabsTrigger value="preview" disabled={isFormEmpty || !signature.generated}>
-                Preview
+                Signatur
               </TabsTrigger>
             </TabsList>
 
