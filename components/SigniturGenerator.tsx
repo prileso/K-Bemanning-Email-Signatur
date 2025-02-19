@@ -53,7 +53,7 @@ export default function SignatureGenerator() {
                     }
                   </td>
                   <td style="vertical-align: top;">
-                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="line-height: 1.2;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="300" style="line-height: 1.2;">
                       <tr>
                         <td style="padding-bottom: 2px;">
                           <span style="font-size: 16px; font-weight: bold; color: #333333;">${formData.firstName} ${formData.lastName}</span>
