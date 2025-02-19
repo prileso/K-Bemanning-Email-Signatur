@@ -47,6 +47,12 @@ export default function SignatureGenerator() {
                         ? `
                       <div style="width: 80px; height: 80px; ">
                         <img src="${formData.imageUrl}" width="80" height="80" style="display: block; width: 80px; height: 80px;">
+                        <!--[if gte mso 9]>
+<v:shape id="img" style="width:80px;height:80px;" stroked="f">
+  <v:imagedata src="${formData.imageUrl}" />
+</v:shape>
+<![endif]-->
+
                       </div>
                     `
                         : ""
