@@ -41,7 +41,7 @@ export default function SignatureGenerator() {
             <td style="padding: 0;">
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
-                  <td style="vertical-align: top; padding-right: 15px; width: 80px; height: 80px;">
+                  <td style="vertical-align: top; 15px; width: 80px; height: 80px;">
                     ${
                       formData.imageUrl
                         ? `
